@@ -20,4 +20,21 @@ If you need to know how to get a Reddit Access token please consult this [Guide]
 Because the used Reddit API Endpoint doesn't send any Ratelimiting information back. There is currently no possible resource-saving way to handle the Rate limits. So you will need to do this on your own in your application. The easiest way would be to just allow a request every second or implementing some kind of delay (60 Request per minute allowed by Reddit). It will be added as soon as there is a solution or workaround.
 
 ### Request a Post
-To fetch a Post you can use this example code or check out the Example Client Project in this Repository
+To fetch a Post you can use this example code or check out the Example Client Project in this Repository.
+
+```csharp
+var acccessToken = ""; // Reddit Accesstoken
+var useragent = ""; // Self defined Useragent
+var subreddit = ""; // Desired subreddit to fetch from
+
+WebAgent agent = new WebAgent(acccessToken, useragent);
+
+var request = agent.CreateRequest(subreddit);
+var response = await agent.GetResponseAsync(request);
+var jsonString = await response.Content.ReadAsStringAsync();
+
+var model = JsonConvert.DeserializeObject<List<Root>>(jsonString);
+
+var post = ResponseFactory.CreateResponseFromPost(model?[0].Data.Children[0].Post);
+```
+
