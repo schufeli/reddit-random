@@ -1,4 +1,8 @@
 # Reddit Random (Package)
+![Workflow Build](https://img.shields.io/github/workflow/status/Schufeli/reddit-random/.NET?label=.NET%20build)
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/schufeli/reddit-random/main?label=CodeFactor%20Grade)
+![NuGet Version](https://img.shields.io/nuget/v/RedditRandom?label=NuGet)
+![License](https://img.shields.io/github/license/schufeli/reddit-random?label=License)
 
 Reddit Random is a NuGet Package to fetch a random Post from any requested Subreddit. Written in C# and built on .net5.0.
 
