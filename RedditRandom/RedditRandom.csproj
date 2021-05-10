@@ -7,6 +7,8 @@
     <Copyright>https://github.com/Schufeli/reddit-random/blob/main/LICENSE</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/Schufeli/reddit-random/</RepositoryUrl>
+    <Authors>Schufeli</Authors>
+    <Company>Schufeli</Company>
   </PropertyGroup>
 
   <ItemGroup>

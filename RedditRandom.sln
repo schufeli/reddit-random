@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditRandom", "RedditRandom\RedditRandom.csproj", "{16039E92-CFCD-492B-81A8-66B0CC7855C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditRandom", "RedditRandom\RedditRandom.csproj", "{16039E92-CFCD-492B-81A8-66B0CC7855C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditRandomTest", "RedditRandomTest\RedditRandomTest.csproj", "{86D66E9F-E0A9-402F-BE14-F59F80DF414E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditRandomTest", "RedditRandomTest\RedditRandomTest.csproj", "{86D66E9F-E0A9-402F-BE14-F59F80DF414E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditRandomTestClient", "RedditRandomTestClient\RedditRandomTestClient.csproj", "{5D6D53CC-34F2-4C22-BD37-8C2925852220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditRandomTestClient", "RedditRandomTestClient\RedditRandomTestClient.csproj", "{5D6D53CC-34F2-4C22-BD37-8C2925852220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditRandomExampleClient", "RedditRandomExampleClient\RedditRandomExampleClient.csproj", "{948DF90C-D5CF-4F56-BAC6-8217208B185B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{16039E92-CFCD-492B-81A8-66B0CC7855C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +57,23 @@ Global
 		{5D6D53CC-34F2-4C22-BD37-8C2925852220}.Release|x64.Build.0 = Release|Any CPU
 		{5D6D53CC-34F2-4C22-BD37-8C2925852220}.Release|x86.ActiveCfg = Release|Any CPU
 		{5D6D53CC-34F2-4C22-BD37-8C2925852220}.Release|x86.Build.0 = Release|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Debug|x64.Build.0 = Debug|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Debug|x86.Build.0 = Debug|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Release|x64.ActiveCfg = Release|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Release|x64.Build.0 = Release|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Release|x86.ActiveCfg = Release|Any CPU
+		{948DF90C-D5CF-4F56-BAC6-8217208B185B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EA86576-7C43-44FB-AD06-6E44360567EB}
 	EndGlobalSection
 EndGlobal
