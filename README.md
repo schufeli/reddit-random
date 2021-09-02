@@ -43,3 +43,6 @@ var post = ResponseFactory.CreateResponseFromPost(model?[0].Data.Children[0].Pos
 ```
 
 To see a full implementation visit this [Project](https://github.com/Schufeli/reddit-random-service)
+
+## 🍸 Contributors
+- [Sirh3e](https://github.com/sirh3e) *Refactoring and guidance.*
